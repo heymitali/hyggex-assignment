@@ -1,14 +1,12 @@
 const FaqCard = ({ question }) => {
   return (
-    <div className="w-[848px] h-[58px] p-4 gap-0 rounded-lg border-2 border-blue-400 mb-[30px] flex justify-between cursor-pointer">
+    <div className="lg:w-[848px] w-full h-auto p-4 gap-0 rounded-lg border-2 border-blue-400 mb-[30px] flex justify-between cursor-pointer text-sm md:text-md 2xl:text-2xl">
       {question}
       <svg
-        width="17"
-        height="9"
         viewBox="0 0 17 9"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="mt-[8px]"
+        className="mt-[8px] w-[17px] h-[9px]"
       >
         <path
           fillRule="evenodd"
