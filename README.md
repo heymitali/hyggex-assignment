@@ -1,8 +1,32 @@
-# React + Vite
+# HyggeX Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this assignment, I have cloned figma design of HyggeX website using React + Tailwind CSS and deployed it on Vercel.
 
-Currently, two official plugins are available:
+## Getting Started 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repo and go to cloned directory
+   ```sh
+   git clone https://github.com/heymitali/hyggex-assignment.git; cd hyggex-assignment
+   ```
+2. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+3. Build and Start the server
+
+   ```sh
+   npm run dev
+   ```
+
+4. Open your browser and navigate to http://localhost:5173
